@@ -18,12 +18,14 @@ About the minigames, we have made two minigames, one is about DDoS and the other
 Try your luck on those three minigames where you have a chance of 0,0006% of winning, but don't worry your chance can get higher if you manage to make money, with that money you can upgrade you computer, and by doing that you will have an higher chance to win the minigames!
 
 The three minigames are:
+
     1-> DDoS Game (You have to DDoS a website or a server)
     2-> SQLinjection Game (You have to try SQLinjection on a website)
     3-> Decrypting Game (You have to decrypt some files of a company)
 
 
 Inside the minigames you have two more options, that is:
+
     1-> Work (Where you can work for others to make extra and easy money)
     2-> My Stats (Where you can upgrade your computer, see your level, change your name and your pc name, see you rank, etc...)
 
