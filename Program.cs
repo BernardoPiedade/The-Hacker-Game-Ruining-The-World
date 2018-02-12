@@ -448,53 +448,57 @@ namespace RuiningTheWorld
 						int ip2 = rnd.Next (1, 256);
 						int ip3 = rnd.Next (1, 256);
 						int ip4 = rnd.Next (1, 256);
+            string ip = ip1 + "." + ip2 +  "." + ip3 + "." + ip4;
 
 						Console.WriteLine ("An ip was found!");
-						Console.WriteLine (ip1 + "." + ip2 + "." + ip3 + "." + ip4);
+						Console.WriteLine (ip);
 						Console.WriteLine ("Do you want to take it down?");
 						Console.WriteLine ("[1] yes");
 						Console.WriteLine ("[2] no");
 						int op2 = Int32.Parse (Console.ReadLine ());
 
 						if (op2 == 1) {
+              int length = 10;
+              int[] sentByteCounts = new int[] {
+                rnd.Next (1, 3000),
+                rnd.Next (1, 2800),
+                rnd.Next (1, 2600),
+                rnd.Next (1, 2400),
+                rnd.Next (1, 2200),
+                rnd.Next (1, 2200),
+                rnd.Next (1, 2100),
+                rnd.Next (1, 2000),
+                rnd.Next (1, 2000),
+                rnd.Next (1, 2000)
+              };
+              int[] expectedByteCounts = new int[] {
+                rnd.Next (1, 3000),
+                rnd.Next (1, 2800),
+                rnd.Next (1, 2600),
+                rnd.Next (1, 2400),
+                rnd.Next (1, 2200),
+                rnd.Next (1, 2200),
+                rnd.Next (1, 2100),
+                rnd.Next (1, 2000),
+                rnd.Next (1, 2000),
+                rnd.Next (1, 2000)
+              };
 
+							Console.WriteLine ("Attacking " + ip);
 
-							int x = rnd.Next (1, 3000);
-							int x2 = rnd.Next (1, 2800);
-							int x3 = rnd.Next (1, 2600);
-							int x4 = rnd.Next (1, 2400);
-							int x5 = rnd.Next (1, 2200);
-							int x6 = rnd.Next (1, 2200);
-							int x7 = rnd.Next (1, 2100);
-							int x8 = rnd.Next (1, 2000);
-							int x9 = rnd.Next (1, 2000);
-							int x10 = rnd.Next (1, 2000);
+              foreach (int byteCount in sentByteCounts) {
+                  Console.WriteLine (byteCount + " bytes were sent to " + ip);
+              }
 
-							int z = rnd.Next (1, 3000);
-							int z2 = rnd.Next (1, 2800);
-							int z3 = rnd.Next (1, 2600);
-							int z4 = rnd.Next (1, 2400);
-							int z5 = rnd.Next (1, 2200);
-							int z6 = rnd.Next (1, 2200);
-							int z7 = rnd.Next (1, 2100);
-							int z8 = rnd.Next (1, 2000);
-							int z9 = rnd.Next (1, 2000);
-							int z10 = rnd.Next (1, 2000);
+              bool hasWon = false;
 
-							Console.WriteLine ("Attacking " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
+              for (int i = 0; i < length; i++) {
+                if (sentByteCounts[i] == expectedByteCounts[i]) {
+                  hasWon = true;
+                }
+              }
 
-							Console.WriteLine (x + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x2 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x3 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x4 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x5 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x6 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x7 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x8 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x9 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-							Console.WriteLine (x10 + " bytes were sent to " + ip1 + "." + ip2 + "." + ip3 + "." + ip4);
-
-							if (x == z || x2 == z2 || x3 == z3 || x4 == z4 || x5 == z5 || x6 == z6 || x7 == z7 || x8 == z8 || x9 == z9 || x10 == z10) {
+							if (hasWon) {
 								Console.WriteLine ("You sucessfully took down the ip!");
 								Console.WriteLine ("\n");
 								Console.WriteLine ("Press any key to continue...");
