@@ -24,9 +24,11 @@ The three minigames are:
     3-> Decrypting Game (You have to decrypt some files of a company)
 
 
-Inside the minigames you have two more options, that is:
+Inside the minigames you have four more options, that is:
 
     1-> Work (Where you can work for others to make extra and easy money)
-    2-> My Stats (Where you can upgrade your computer, see your level, change your name and your pc name, see you rank, etc...)
+    2-> Bitcoin Mining (Where you can get your claims from your Bitcoin Miner)
+    3-> ATM (Where you can send you money to credit card, you credit card money to your money, bitcoin to credit card or money)
+    4-> My Stats (Where you can upgrade your computer, see your level, change your name and your pc name, see you rank, etc...)
 
 Have fun and good luck hackers!
