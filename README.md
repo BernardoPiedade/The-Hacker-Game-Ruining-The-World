@@ -1,4 +1,4 @@
-# Ruining-The-World
+# The Hacker Game: Ruining-The-World
 A game where you're an hacker. It has a campaign, three minigames and a secret code challenge.
 
 This game is still under development, the campaign isn't done yet, but all the other functions are ready for you to play!
