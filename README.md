@@ -31,9 +31,6 @@ Inside the minigames you have four more options, that is:
     4-> My Stats (Where you can upgrade your computer, see your level, change your name and your pc name, see your rank, etc...)
     
 -------------------------------------------------------------//--------------------------------------------------------------------
-
-    .How to install
-
     
     .Requirements
     
