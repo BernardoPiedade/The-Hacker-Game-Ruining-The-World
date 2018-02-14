@@ -29,12 +29,16 @@ Inside the minigames you have four more options, that is:
     2-> Bitcoin Mining (Where you can get your claims from your Bitcoin Miner)
     3-> ATM (Where you can send your money to credit card, your credit card money to your money, bitcoin to credit card or money)
     4-> My Stats (Where you can upgrade your computer, see your level, change your name and your pc name, see your rank, etc...)
+    
+-------------------------------------------------------------//--------------------------------------------------------------------
 
     .How to install
     
     .Requirements
     
     git (sudo apt install git)
+    
+-------------------------------------------------------------//--------------------------------------------------------------------
     
     .Cloning
     
