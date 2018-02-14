@@ -33,6 +33,7 @@ Inside the minigames you have four more options, that is:
 -------------------------------------------------------------//--------------------------------------------------------------------
 
     .How to install
+
     
     .Requirements
     
