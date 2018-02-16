@@ -44,5 +44,12 @@ Inside the minigames you have four more options, that is:
     cd The-Hacker-Game-Ruining-The-World
     chmod 777 RuiningTheWorld.exe
     ./RuiningTheworld.exe
+    
+------------------------------------------------------------------//---------------------------------------------------------------
 
-Have fun and good luck hackers!
+    .Support us
+    
+BTC : 1D9SBPUheB7FSnYwqf7Mb7gcityDEv6TnA
+ETH : 0x680a0F26965a9F47781Ad38DcB7fB4881E6321EA
+LTC : Lh2rPChVRsAVsHbb9pK2q7XZmjNNC4kU4K
+
