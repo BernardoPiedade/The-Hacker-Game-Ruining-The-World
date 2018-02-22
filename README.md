@@ -1,5 +1,5 @@
 # The Hacker Game: Ruining The World
-A game where you're an hacker. It has a campaign, three minigames and a secret code challenge.
+A game where you're an hacker. It has a campaign, a side game with three minigames and a secret code challenge.
 
 This game is still under development, the campaign isn't finished yet, but all the other functions are ready for you to play!
 
@@ -12,9 +12,9 @@ About the campaign, we're a team of two novice programmers and we're doing our b
 
 -------------------------------------------------------------//--------------------------------------------------------------------
 
-    .Minigames
+    .Side Game
 
-Try your luck on those three minigames where you have a chance of 0,0006% of winning, but don't worry your chance can get higher if you manage to make money, with that money you can upgrade your computer, and by doing that you will have an higher chance to win the minigames!
+Try your luck on three minigames where you have a chance of 0,0006% of winning, but don't worry your chance can get higher if you manage to make money, with that money you can upgrade your computer, and by doing that you will have an higher chance to win the minigames!
 
 The three minigames are:
 
@@ -23,7 +23,7 @@ The three minigames are:
     3-> Decrypting Game (You have to decrypt some files for a company)
 
 
-Inside the minigames you have four more options, that is:
+Inside the side game you have four more options, that is:
 
     1-> Work (Where you can work for others to make extra and easy money)
     2-> Bitcoin Mining (Where you can get your claims from your Bitcoin Miner)
@@ -40,10 +40,10 @@ Inside the minigames you have four more options, that is:
     
     .Cloning
     
-    sudo git clone https://github.com/BernardoPiedade/The-Hacker-Game-Ruining-The-World.git
-    cd The-Hacker-Game-Ruining-The-World
-    chmod 777 RuiningTheWorld.exe
-    ./RuiningTheworld.exe
+    $ sudo git clone https://github.com/BernardoPiedade/The-Hacker-Game-Ruining-The-World.git
+    $ cd The-Hacker-Game-Ruining-The-World
+    $ sudo chmod 777 RuiningTheWorld.exe
+    $ sudo ./RuiningTheworld.exe
     
 ------------------------------------------------------------------//---------------------------------------------------------------
 
